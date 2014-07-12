@@ -13,6 +13,6 @@ public class UserServiceImpl2 implements UserService {
 	private UserDao userDao;
 	
 	public String getHelloMessage() {
-		return "¾È³çÇÏ¼¼¿ä2 " + userDao.getUser("hamzang").getName();
+		return "ì•ˆë…•í•˜ì„¸ìš” " + userDao.getUser("hamzang").getName();
 	}
 }

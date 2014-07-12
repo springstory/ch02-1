@@ -29,7 +29,7 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/hello.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/hello2.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		
 		String message = userService.getHelloMessage();
