@@ -6,7 +6,7 @@
 <mapper namespace="users">
 
 	<select id="getUser" resultType="com.springstory.vo.User" parameterType="string">
-		select * from member where id = #{id}
+		select * from user where id = #{id}
 	</select>
 	
 	<select id="getUserList"   resultType="com.springstory.vo.User">
